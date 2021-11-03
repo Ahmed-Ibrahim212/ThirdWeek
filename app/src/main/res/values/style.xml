@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="circular">
+        <item name="cornerSize">50%</item>
+    </style>
+<!--The Dark Theme-->
+    <style name="DarkTheme" parent ="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryDark">@color/design_default_color_primary_dark</item>
+        <item name="colorAccent">@color/design_default_color_surface</item>
+        <item name="backgroundColor">#423A3A</item>
+        <item name="cardBackgroundColor">#131313</item>
+        <item name="textFillColor">#131313</item>
+    </style>
+<!--The Light Theme-->
+    <style name="LightTheme" parent ="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryDark">@color/design_default_color_primary_dark</item>
+        <item name="colorAccent">@color/design_default_color_surface</item>
+        <item name="backgroundColor">#131313</item>
+        <item name="cardBackgroundColor">#424242</item>
+        <item name="textFillColor">#4E4C4C</item>
+    </style>
+
+    <style name="button">
+        <item name="backgroundTint">@color/black</item>
+    </style>
+
+</resources>

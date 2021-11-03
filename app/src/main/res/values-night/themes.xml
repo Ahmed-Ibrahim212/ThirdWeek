@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ThirdWeek" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/black</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+<!--    The Text View Dark Mode-->
+    <style name="text">
+        <item name="android:textColor">@color/white</item>
+    </style>
+<!--The Search View Dark Mode-->
+    <style name="searchView">
+        <item name="android:background">#EA80FC</item>
+    </style>
+<!--The Image View Dark Mode-->
+    <style name="imageView">
+        <item name="android:previewImage">@color/white</item>
+    </style>
+</resources>
